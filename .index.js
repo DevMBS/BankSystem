@@ -32,7 +32,7 @@ const fs = require("fs");
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: '',
+    user: '',//здесь надо прописать почту, которую будет впоследствие использовать банк для рассылки верификационных кодов, и пароль для нее
     pass: '',
   },
 });
