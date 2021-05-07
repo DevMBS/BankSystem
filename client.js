@@ -25,10 +25,9 @@ function signUp(){
   });
 }
 
-//автологина не будет, прошу прощения у всех юзеров( Я его не сделал, тк хранить пароли запрещено и небезопасно, а как работать с идентификаторами сессий, куками и тп я не знаю
+//автологина не будет, прошу прощения у всех юзеров( Я его не сделал, тк хранить пароли запрещено и небезопасно, а как это осуществить максимально безопасно, я не знаю
 function login(){
   document.getElementById("wlcm").style.display="none";
-  //сессионное хранилище в данном случае использую как хранилище для переменных, которые мне нужны за пределами функции, это безопасно, тк в этих переменных не хранятся данные о кодах и паролях
   sessionStorage.setItem("login", document.getElementById("userLogin").value);
   socket.emit("login", [document.getElementById("userLogin").value, document.getElementById("loginPassword").value]);
   document.getElementById("login").style.display="none";
