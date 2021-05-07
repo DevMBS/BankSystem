@@ -1,0 +1,2 @@
+language = "nodejs"
+run = "node cowsay.js && node .index.js"

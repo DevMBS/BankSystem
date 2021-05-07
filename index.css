@@ -1,0 +1,64 @@
+/*а здесь я навожу красоту*/
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300&display=swap');
+input{
+  font-family: 'Exo', sans-serif;
+  color: rgb(97, 216, 255);
+  border-style:solid;
+  border-color: #eeeeee;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff;
+  padding: 2%;
+  font-size: 160%;
+}
+#signup, #login, #balance, #operations{
+  text-align:center;
+  font-family: 'Exo', sans-serif;
+  color: rgb(97, 216, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+  height: 50%;
+  padding: 60px 35px 35px 35px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+#balance, #operations{
+  display: none;
+}
+#wlcm{
+  padding: 0.5%;
+  text-align:center;
+  font-family: 'Exo', sans-serif;
+  color: rgb(97, 216, 255);
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+button{
+  color: rgb(97, 216, 255);
+  font-family: 'Exo', sans-serif;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+  border-style:solid;
+  border-color: rgb(97, 216, 255);;
+  cursor: pointer;
+  padding: 5% 15% 5% 15%;
+  font-size: 140%;
+}
+body{
+  margin: 3%;
+}

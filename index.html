@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Null Bank</title>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js" integrity="sha384-LzhRnpGmQP+lOvWruF/lgkcqD+WDVt9fU3H4BWmwP5u5LTmkUGafMcpZKNObVMLU" crossorigin="anonymous"></script>
+    <script src = "client.js"></script>
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+  <body>
+    <div id="wlcm"><h1>Welcome to The Null Bank!</h1></div><br/><br/><br/>
+    <div id="balance"></div><br/><br/>
+    <div id="signup">
+      <h2>Sign Up</h2>
+      <input id="name" placeholder="Enter your name"/><br/><br/>
+      <input id="password" type="password" placeholder="Enter password"/><br/><br/>
+      <input id="email" placeholder="Enter your GMAIL adress" type="email"/><br/><br/>
+      <button onclick="signUp();">Sign Up</button>
+    </div><br/><br/></br/>
+    <div id="login">
+      <h2>Log In</h2>
+      <input id="userLogin" placeholder="Enter your card number" maxlength="8" /><br/><br/>
+      <input id="loginPassword" type="password"placeholder="Enter password"/><br/><br/>
+      <button onclick="login();">Login</button>
+    </div><br/><br/>
+    <div id="operations"></div>
+  </body>
+  </html>
